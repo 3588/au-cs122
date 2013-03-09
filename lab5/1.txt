@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main(){
+	int num1, num2;
+	cout << "num1 please: ";
+	cin>>hex>>num1;
+	cout << "num2 please: ";
+	cin>>hex>>num2;
+	cout << setw(15)<<hex<<num1<<endl;
+	cout << setw(15)<<hex<<num2<<endl;
+	cout << "--------------------------\n";
+	cout << setw(15)<<hex<<num1+num2<<endl;
+}
